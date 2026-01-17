@@ -14,7 +14,7 @@ int main() {
 	srand(time(NULL)); // Seed the random number generator
 	int myrand = rand() % 10; // synthesize our preferred random number range
 
-	printf("The rando number was: %d\n", myrand);
+	printf("The random number was: %d\n", myrand);
 
 	if (myrand >= 0 && myrand <= 4) {
 		printf("Eat more beef, kick less cats\n");
